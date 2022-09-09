@@ -1,0 +1,57 @@
+body{
+    background-image: url(/pexels-emir-anık-7462049.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    justify-content: center;
+    font-family: 'Noto Serif', serif;
+    font-family: 'PT Serif', serif;
+    text-transform: capitalize;
+}
+
+.box{
+    background: #6d6162;
+    padding: 2em;
+    border-radius: 30px;
+    width: 100%;
+    margin: 1em;
+    max-width: 500px;
+    opacity: 0.7;
+}
+
+.arama{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+input.arama-motoru{
+    border: none;
+    padding: 0.5em 1em;
+    border-radius: 50px;
+    outline: none;
+    background-color: #bac7c3;
+    color: rgb(92, 85, 73);
+    font-family: 'Noto Serif', serif;
+    font-family: 'PT Serif', serif;
+}
+
+button{
+    margin: 0.5em;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    border: none;
+    outline: none;
+    background-color: #bac7c3;
+    color: black;
+    transition: ease-in-out;
+}
+
+button:hover{
+    background-color: aliceblue;
+}
